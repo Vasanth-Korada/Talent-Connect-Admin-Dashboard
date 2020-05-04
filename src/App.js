@@ -1,24 +1,31 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
-
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Navbar from 'react-bootstrap/Navbar'
+import Admin from './Admin';
+import Card from 'react-bootstrap/Card'
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Navbar className='Navbar' fixed='top'>
+          <Navbar.Brand href="#home">
+            <img
+                   src="/logo.svg"
+                   width="30"
+                   height="30"
+                   className="d-inline-block align-top"
+                   alt="logo" />
+             </Navbar.Brand>
+    </Navbar>
+    <br></br>
+    <div className='admin'>
+      <Card>
+        <br></br>
+          <Admin></Admin>
+        <br></br>
+      </Card>
+    </div>
+    <br></br>
     </div>
   );
 }
