@@ -1,0 +1,16 @@
+.admin{
+    margin-left: 5%;
+    margin-right: 5%;
+    font-family: 'Raleway';
+    font-weight: bold;
+    margin-top: 50px;
+    
+  }.text{
+    background: -webkit-linear-gradient(90deg, rgba(231,78,75,0.9710259103641457) 28%, rgba(251,129,51,1) 88%) ;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  #button{
+    background-color: #FF6666;
+    border-color: #FF6666;
+  }

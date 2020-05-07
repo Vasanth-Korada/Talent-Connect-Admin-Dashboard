@@ -3,9 +3,6 @@
   background: rgb(231,78,75);
   background: linear-gradient(90deg, rgba(231,78,75,0.9710259103641457) 28%, rgba(251,129,51,1) 88%);
 }
-.admin{
-  margin-left: 5%;
-  margin-right: 5%;
-  font-family: 'Raleway';
-  margin-top: 50px;
+.App{
+  align-items: center;
 }
