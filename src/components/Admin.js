@@ -1,6 +1,6 @@
 import React,{useState} from 'react';
 import {Form} from 'react-bootstrap'
-import './Admin.css'
+import '../styles/Admin.css';
 const Admin = () => {
     const [contest,setContest]=useState('');
     const [description,setDescription]=useState('');

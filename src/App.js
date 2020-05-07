@@ -1,8 +1,8 @@
 import React from 'react';
-import './App.css';
+import './styles/App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbar from 'react-bootstrap/Navbar'
-import Admin from './Admin';
+import Admin from './components/Admin';
 import Card from 'react-bootstrap/Card'
 function App() {
   return (
